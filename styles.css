@@ -1,0 +1,39 @@
+body{
+    background-color: #ccc;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px black;
+}
+
+.capital {
+    display: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button{
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px black;
+}
